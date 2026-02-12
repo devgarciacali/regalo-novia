@@ -699,6 +699,24 @@ body {
     line-height: 1.6;
 }
 
+.secret-img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+    margin: 0 auto 25px;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+    filter: brightness(1.1) contrast(1.05);
+}
+
+.secret-img:hover {
+    transform: scale(1.08) rotate(2deg);
+    box-shadow: 0 20px 45px rgba(0, 102, 255, 0.5);
+    border-color: white;
+}
+
 .close-button {
     padding: 12px 30px;
     background: white;

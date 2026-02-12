@@ -161,16 +161,16 @@ function createParticle() {
     
     // BT21 Characters with styled elements
     const bt21Elements = [
-        { name: 'KOYA', class: 'particle-koya', size: 40 },
-        { name: 'RJ', class: 'particle-rj', size: 40 },
-        { name: 'SHOOKY', class: 'particle-shooky', size: 35 },
-        { name: 'MANG', class: 'particle-mang', size: 40 },
-        { name: 'CHIMMY', class: 'particle-chimmy', size: 40 },
-        { name: 'TATA', class: 'particle-tata', size: 45 },
-        { name: 'COOKY', class: 'particle-cooky', size: 40 },
-        { name: 'VAN', class: 'particle-van', size: 35 },
-        { name: '♡', class: 'particle-heart', size: 30 },
-        { name: '★', class: 'particle-star', size: 25 },
+        { name: '❤️', class: 'particle-koya', size: 40 },
+        { name: '⭐', class: 'particle-rj', size: 40 },
+        { name: '🐼', class: 'particle-shooky', size: 35 },
+        { name: '🥭', class: 'particle-mang', size: 40 },
+        { name: '🍪', class: 'particle-chimmy', size: 40 },
+        { name: '💖', class: 'particle-tata', size: 45 },
+        { name: '🍪', class: 'particle-cooky', size: 40 },
+        { name: '💖', class: 'particle-van', size: 35 },
+        { name: '💖', class: 'particle-heart', size: 30 },
+        { name: '⭐', class: 'particle-star', size: 25 },
     ];
     
     const randomElement = bt21Elements[Math.floor(Math.random() * bt21Elements.length)];
