@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para la niña más hermosa del universo 💜</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Intro Overlay for Autoplay -->
+    <div id="introOverlay" class="intro-overlay">
+        <div class="intro-content">
+            <h2 class="section-title">¿Estás lista? ✨</h2>
+            <button id="startBtn" class="glow-button">Entrar a nuestro mundo 💙</button>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Para la niña más hermosa del universo 💜</h1>
+            <p class="hero-subtitle fade-in-delay">Eres la melodía que hace brillar cada día de mi vida</p>
+            <button class="hero-button glow-button" id="loveButton">
+                Haz clic si me amas ✨
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- Special Message Section -->
+    <section class="message-section" id="message">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="message-card scroll-reveal">
+                <h2 class="section-title">Una carta para ti ✨</h2>
+                <div class="message-content">
+                    <p>Mi amor,</p>
+                    <p>Cada día a tu lado es como vivir en un concierto donde tú eres la estrella principal. Tu sonrisa ilumina mi mundo más que cualquier escenario, y tu risa es mi canción favorita.</p>
+                    <p>Eres mi inspiración, mi fuerza, mi todo. Como las estrellas que brillan en el cielo nocturno, tú iluminas mi vida con tu luz única y especial.</p>
+                    <p>Gracias por ser mi compañera, mi mejor amiga, mi amor verdadero. Contigo, cada momento es mágico, cada día es una aventura, y cada segundo es un regalo.</p>
+                    <p class="signature">Con todo mi amor, siempre tuyo 🤍</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Nuestros momentos especiales 📸</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/chimmy.png" alt="CHIMMY - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>CHIMMY (Jimin)</h3>
+                        <p>Como tu alegría contagiosa, iluminas mis días más oscuros. Eres la melodía que hace bailar a mi corazón cada mañana.</p>
+                    </div>
+                </div>
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/koya.png" alt="KOYA - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>KOYA (RM)</h3>
+                        <p>Eres la calma de mis pensamientos y el sueño más hermoso del que nunca quiero despertar. Mi lugar seguro siempre es a tu lado.</p>
+                    </div>
+                </div>
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/mang.png" alt="MANG - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>MANG (J-Hope)</h3>
+                        <p>Detrás de cada baile y cada sonrisa, está la esperanza que me das para seguir adelante. Eres el ritmo perfecto de mi vida.</p>
+                    </div>
+                </div>
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/rj.png" alt="RJ - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>RJ (Jin)</h3>
+                        <p>Porque eres el blanco puro en mi mundo de color negro, la suavidad que abraza mi alma en los momentos más difíciles.</p>
+                    </div>
+                </div>
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/shooky.png" alt="SHOOKY - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>SHOOKY (Suga)</h3>
+                        <p>Dulce, travieso y con una fuerza increíble; como el amor que siento por ti, capaz de vencer cualquier miedo.</p>
+                    </div>
+                </div>
+                <div class="gallery-card scroll-reveal">
+                    <div class="gallery-image">
+                        <img src="img/tata.png" alt="TATA - BT21 Character" class="bt21-image">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>TATA (V)</h3>
+                        <p>Viniste de otro mundo para enseñarme que el amor no tiene fronteras. Tu corazón es el hogar que siempre estuve buscando.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BTS Stage Section -->
+    <section class="stage-section" id="stage">
+        <div class="stage-lights"></div>
+        <div class="container">
+            <div class="stage-content scroll-reveal">
+                <h2 class="section-title glow-text">Okey Dokey Yo! 🎤</h2>
+                <div class="typing-text" id="typingText"></div>
+                <div class="counter-container">
+                    <h3>Tiempo juntos</h3>
+                    <div class="counter-grid">
+                        <div class="counter-item">
+                            <span class="counter-number" id="days">0</span>
+                            <span class="counter-label">Días</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-number" id="hours">0</span>
+                            <span class="counter-label">Horas</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-number" id="minutes">0</span>
+                            <span class="counter-label">Minutos</span>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-number" id="seconds">0</span>
+                            <span class="counter-label">Segundos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-quote">"Eres mi canción favorita todos los días" 🎵</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/>
+                        <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="Heart">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="footer-copyright">Hecho con 💜 para la persona más especial @MANE GARCIA</p>
+        </div>
+    </footer>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Music Player Controls -->
+    <div class="music-player">
+        <audio id="bgMusic" loop autoplay>
+            <source src="music/hwang.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="controls">
+            <button id="volDown" class="control-btn" title="Bajar Volumen">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 17h-5v-10h5v10zm2-10v10l9 5v-20l-9 5zm11 1v6.33l1.88 1.88c.69-1.49 1.12-3.17 1.12-4.96 0-3.11-1.34-5.91-3.48-7.85l-1.43 1.43c1.67 1.45 2.7 3.51 2.7 5.81s-1.03 4.36-2.7 5.81l1.43 1.43c.96-1.12 1.7-2.39 2.19-3.79l-1.71-1.71c-.13.3-.29.59-.47.87l-1.53-1.53c.18-.39.3-.81.35-1.25H18z"/></svg>
+            </button>
+            <button id="playPause" class="control-btn play" title="Play/Pausa">
+                <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            <button id="volUp" class="control-btn" title="Subir Volumen">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Hidden Message -->
+    <div class="hidden-message" id="hiddenMessage">
+        <div class="hidden-message-content">
+            <h3>¡Mensaje secreto desbloqueado! 🎉</h3>
+            <p>Eres más brillante que todas las estrellas del universo juntas. Te amo infinitamente 💜✨</p>
+            <button class="close-button" id="closeMessage">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
